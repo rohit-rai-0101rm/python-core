@@ -68,7 +68,7 @@ c=int(input("enter the number"))
 if (a>b and a>c):
     print(a, "is gratest")
 
-elif (b>c):
+elif (b>=c):
     print(b,"is greatest")
 else:
     print(c,"is greatest")
